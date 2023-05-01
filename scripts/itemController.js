@@ -15,7 +15,7 @@ class itemController {
       this.items.push(newItem);
       this.currentId++; // increment the latest id for the next item
     }
-  }
+  } 
 const myController = new itemController();
 myController.addItem('Red Velvet Cake', 'Freshly made velvet cake', 'food img');
 myController.addItem('Churro', 'Freshly made churro', 'some img of churro');
