@@ -15,6 +15,7 @@
 html { 
     font-size: 16px;
     background-color: #e9b48f;
+    overflow-x: hidden;
 }
 
 
