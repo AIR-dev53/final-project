@@ -355,9 +355,8 @@ color:chocolate;
    border-radius: 20px;
    color: beige;
    background-color: #1c9a9a;
-   font-size: 25px;
+   font-size: 25px;}
 
-  }
   .learn_btn{
     margin: 5rem 9rem;
     padding: .5rem 1rem;
@@ -368,6 +367,14 @@ color:chocolate;
     font-size: 25px;
  
    }
+   .learn_btn :link, .order_btn :link{
+    color: beige;
+   }
+
+   .learn_btn :visited, .order_btn :visited{
+    color: beige;
+   }
+
   .learn_btn:hover{
     letter-spacing: 1px;
     transition: .50s ease;
@@ -407,6 +414,10 @@ color:chocolate;
     0 0 40px #1c9a9a,
     0 0 80px #1c9a9a;
     transition: .9s;
+  }
+
+  .greeting_button :link{
+    color: beige;
   }
   .greeting_p{
     font-size: 30px;
@@ -448,11 +459,29 @@ color:chocolate;
     transform: scale(1.09);
     transition: all .38s ease;
   }
+
+  .cupcake:hover {
+    transform: scale(1.09);
+    transition: all .38s ease;
+  }
+
+  .brownies:hover {
+    transform: scale(1.09);
+    transition: all .38s ease;
+  }
  
+  .doughnuts:hover {
+    transform: scale(1.09);
+    transition: all .38s ease;
+  }
+  .cake, .macaroons, .cookies, .cupcake, .brownies .doughnuts{
+    width:70%;
+    height: auto;
+  }
  
   .landing-products{
-  width: 90%;
-  height: 90%;
+  width: 70%;
+  height: auto;
   margin:0 1rem;
   }
  
