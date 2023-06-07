@@ -1,4 +1,4 @@
-class itemController {
+class ItemController {
     constructor() {
       this.items = [];
       this.currentId = 0; // initialize the latest id to 0
@@ -23,5 +23,17 @@ console.log(myController.items);
 
 
     // Save the items to local storage
-    localStorage.setItem('items', JSON.stringify(itemController.items));
+    localStorage.setItem('items', JSON.stringify(myController.items));
+
   
+// items-controller.js
+class ItemsController {
+  constructor() {
+    this.items = JSON.parse(localStorage.getItem('items')) || [];
+  }
+  addItem(item) {
+    this.items.push(item);
+    localStorage.setItem('items', JSON.stringify(this.items));
+  }
+}
+export { ItemsController };
