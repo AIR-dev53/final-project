@@ -4,7 +4,8 @@
     box-sizing: border-box;
     list-style: none;
     font-family: 'Kurale', serif;
-   
+
+
 
 
 }
@@ -193,6 +194,7 @@ a {
 
 #about {
     text-align: center;
+    
   }
  
   .row {
@@ -210,8 +212,8 @@ a {
  
   .profile-pic {
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: fit-content;
+    height:fit-content;
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;
