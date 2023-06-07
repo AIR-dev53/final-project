@@ -474,13 +474,14 @@ color:chocolate;
     transform: scale(1.09);
     transition: all .38s ease;
   }
-  .cake, .macaroons, .cookies, .cupcake, .brownies .doughnuts{
-    width:70%;
+  .cake, .macaroons, .cookies, .cupcake, .brownies, .doughnuts {
+    width:30%;
     height: auto;
+    margin-bottom: 2rem;
   }
  
   .landing-products{
-  width: 70%;
+  width: 90%;
   height: auto;
   margin:0 1rem;
   }
