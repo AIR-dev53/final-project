@@ -113,25 +113,28 @@ header {
  }
 /*Nav Section End*/
 
-
-
-
-.BQ-h1, .about-us-story {
-    text-align: center;
-    margin: 2rem ;
-    font-weight: 800;
- 
+.all-text-about {
+  text-align: center;
+  padding-top: 100px;
 }
-
 
 .BQ-h1 {
     font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+    background-color: rgba(233, 180, 143,0.8);
+    border-radius: 40px;
+    margin: 0 auto;
 }
 
 
 .about-us-story {
     color: beige;
     font-size: 20px;
+    text-align: center;
+    background-color: rgba(160, 81, 45,0.5);
+    border-radius: 3px;
+    margin: 0 auto;
 }
 .about-image{
   background-image:url(images/cake-gd59c99d7c_1920.jpg);
@@ -177,6 +180,17 @@ a {
 
 .BQ-h1 {
     font-size: 3rem;
+}
+
+.about-container{
+  background-image: url('C:/Users/cjays/Documents/GitHub/final-project/images/cake.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  width: 1200px;
+  margin: 0 auto;
+  border-radius: .8em;
 }
 
 
